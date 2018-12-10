@@ -12,7 +12,7 @@
 <meta content='text/html; charset=utf-8' http-equiv='content-type' />
 
   <meta content='https://ozapinq.github.io/posts/conditional-debugging-in-production' property='og:url' />
-  <meta content="Imagine how easier your life could be if you were able to use debug output in production?Often, when maintaining serv..." property='og:description' />
+  <meta content="Imagine how easier your life could be if you were able to use debug output inproduction?Often, when maintaining servi..." property='og:description' />
   <meta content="article" property="og:type" />
 
 <!-- - -->
@@ -61,38 +61,58 @@
           </div>
         
         <div class="markdown-body">
-          <p>Imagine how easier your life could be if you were able to use debug output in production?</p>
+          <p>Imagine how easier your life could be if you were able to use debug output in
+production?</p>
 
-<p>Often, when maintaining services, you deal with support tickets describing bugs, in which there is not enough information to diagnose and fix the problem.</p>
+<p>Often, when maintaining services, you deal with support tickets describing bugs,
+in which there is not enough information to diagnose and fix the problem.</p>
 
-<p>In such cases your options are usually limited to: contact support engineer for additional information, try to recreate user environment in which bug occured and try to find signs of error in logs.</p>
+<p>In such cases your options are usually limited to: contact support engineer for
+additional information, try to recreate user environment in which bug occured
+and try to find signs of error in logs.</p>
 
-<p>Unfortunately, these options are not optimal because they take too much time. Interaction with user as well as attempts to recreate user environment might drag on for several days. Searching for relevant information in log files is like looking for a needle in a haystack.</p>
+<p>Unfortunately, these options are not optimal because they take too much time.
+Interaction with user as well as attempts to recreate user environment might
+drag on for several days. Searching for relevant information in log files is
+like looking for a needle in a haystack.</p>
 
-<p>Regardless of your choice, ticket resolution time will increase, while user will be more and more disappointed in the service.</p>
+<p>Regardless of your choice, ticket resolution time will increase, while user will
+be more and more disappointed in the service.</p>
 
-<p>Imagine - you want to buy an airline ticket with time-limited promo fare or place a bid on auction. But because of some bug and untimely customer support response you miss the opportunity. If you face similar problem once again, you probably would leave that service and never come back.</p>
+<p>Imagine - you want to buy an airline ticket with time-limited promo fare or
+place a bid on auction. But because of some bug and untimely customer support
+response you miss the opportunity. If you face similar problem once again, you
+probably would leave that service and never come back.</p>
 
-<p>Using conditional debugging in production can help reduce the time needed to solve
-user’s problem.</p>
+<p>Using conditional debugging in production can help reduce the time needed to
+solve user’s problem.</p>
 
 <h2 id="conditional-debugging-usage-scenario">Conditional debugging usage scenario</h2>
 
-<p>Consider the scenario of using conditional debugging to solve the problem with inability to buy ticket through your service:</p>
+<p>Consider the scenario of using conditional debugging to solve the problem with
+inability to buy ticket through your service:</p>
 <ol>
   <li>Customer support receives complaint from user about inability to buy a ticket</li>
   <li>Support engineer enables conditional debugging for that particular user</li>
   <li>User retries to buy a ticket</li>
-  <li>Support engineer sends gathered info to the developers to fix the error.</li>
+  <li>Support engineer sends gathered info to the developers to fix the error</li>
 </ol>
 
 <h2 id="conditional-debugging-technique-overview">Conditional debugging technique overview</h2>
 
-<p>To enable debugging of user requests, the user must be assigned a debug token. This token must be sent to the user using a Cookie. It acts as a unique id of debug session and contains logging configuration parameters for system components.</p>
+<p>To enable debugging of user requests, the user must be assigned a debug token.
+This token must be sent to the user using a Cookie. It acts as a unique id of
+debug session and contains logging configuration parameters for system
+components.</p>
 
-<p>Upon receipt of subsequent requests from the user, the webserver checks the correctness of received debug token. In case the debug token passes validation, the webserver proxies the original request further setting X-Request-Id header with the generated unique identifier. In case the debug token fails to validate, no header is added to the request.</p>
+<p>Upon receipt of subsequent requests from the user, the webserver checks the
+correctness of received debug token. In case the debug token passes validation,
+the webserver proxies the original request further setting X-Request-Id header
+with the generated unique identifier. In case the debug token fails to validate,
+no header is added to the request.</p>
 
-<p>Every system component received request with X-Request-Id header must add it to logging output associated with this request.</p>
+<p>Every system component received request with X-Request-Id header must add it to
+logging output associated with this request.</p>
 
 <p><img src="https://ozapinq.github.io/images/conditional_debugging_scheme.png" alt="conditional debugging scheme" /></p>
 
@@ -108,14 +128,24 @@ Debug token
 <p>The token consists of:</p>
 <ul>
   <li>unique id of debug session</li>
-  <li>logging parameters.</li>
+  <li>logging parameters</li>
 </ul>
 
-<p>The debug token is generated when starting a debug session for a user. When starting a debug session, you can specify logging parameters for each system component.</p>
+<p>The debug token is generated when starting a debug session for a user. When
+starting a debug session, you can specify logging parameters for each system
+component.</p>
+
+<p>The debug token is checked by the webserver for data integrity in order to avoid
+forgery and DoS attacks through unauthorized intensive logging.</p>
 
 <h3 id="token-parameters">Token parameters</h3>
 
-<p>Token parameters are represented using sequential TLV (Type-Length-Value) entries, describing logging configuration for each system component. Token parameters are encoded with base64. The use of TLV for storing configuration allows to organize flexible, space-efficient configuration schemes for different services, where every service knows only it’s own configuration scheme and a corresponding type of TLV entry.</p>
+<p>Token parameters are represented using sequential TLV (Type-Length-Value)
+entries, describing logging configuration for each system component. Token
+parameters are encoded with base64. The use of TLV for storing configuration
+allows to organize flexible, space-efficient configuration schemes for different
+services, where every service knows only it’s own configuration scheme and a
+corresponding type of TLV entry.</p>
 
 <pre class="centered">
 TLV entry example
@@ -126,8 +156,6 @@ TLV entry example
 |   0xA3   |   0x12   |        2        |       3         |  t  |    f    |
 +-------------------------------------------------------------------------+
 </pre>
-
-<p>The debug token is checked by the webserver for correctness in order to avoid token forgery and DoS attacks through unauthorized log level increase.</p>
 
 <h2 id="unique-request-id-x-request-id">Unique Request ID (X-Request-Id)</h2>
 
@@ -144,19 +172,27 @@ X-Request-Id
   <li>random id, unique for current debug session.</li>
 </ul>
 
-<p>X-Request-Id is generated by the webserver if a request with correct debug token has been received from the user.</p>
+<p>X-Request-Id is generated by the webserver if a request with correct debug token
+has been received from the user.</p>
 
-<p>The webserver drops X-Request-Id headers received from the client in order to avoid token forgery.</p>
+<p>The webserver drops X-Request-Id headers received from the client in order to
+avoid token forgery.</p>
 
 <h3 id="processing-requests-with-x-request-id-header">Processing requests with X-Request-Id header</h3>
 
-<p>Every service received a request with X-Request-Id header must check logging configuration parameters specified in debug token to determine which logging policies apply to current request.</p>
+<p>Every service received a request with X-Request-Id header must check logging
+configuration parameters specified in debug token to determine which logging
+policies apply to current request.</p>
 
 <h2 id="conclusion">Conclusion</h2>
 
-<p>Debugging simplification is crucial for any service, as it speeds up processing of support tickets, reduces unnecessary communication with the customer and have an overall positive impact on customer experience.</p>
+<p>Debugging simplification is crucial for any service, as it speeds up processing
+of support tickets, reduces unnecessary communication with the customer and have
+an overall positive impact on customer experience.</p>
 
-<p>Using described technique in conjunction with carefully thought-out logging configuration allows you to gather almost any information about request processing without the need of services reconfiguration.</p>
+<p>Using described technique in conjunction with carefully thought-out logging
+configuration allows you to gather almost any information about request
+processing without the need of services reconfiguration.</p>
 
         </div>
       </main>
