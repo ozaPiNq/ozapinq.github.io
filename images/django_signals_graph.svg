@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="750.0"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-395.000000 -382.000000 750.000000 761.000000" height="761.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="1.0"
+              d="M -341.940643,-120.008080 L -324.445587,-131.313873"
+              class="id_user_rejected id_send_user_rejected_notification"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -363.543610,-88.856049 L -369.633392,-61.046890"
+              class="id_user_rejected id_create_moderation_request_rejected_signal"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -116.611008,-77.089951 L -124.775475,-97.972305"
+              class="id_order_published id_send_order_published_notification"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 260.309326,282.281189 L 295.737183,270.435852"
+              class="id_balance_deposit id_calculate_bonus" stroke-opacity="1.0"
+              stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 243.414948,268.440613 L 247.966339,232.101913"
+              class="id_balance_deposit id_create_balance_audit_entry"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 220.726532,284.960510 L 190.033600,279.137360"
+              class="id_balance_deposit id_send_balance_deposit_notification"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -348.776794,59.766220 L -332.568115,73.270325"
+              class="id_offer_rejected id_send_offer_rejected_notification"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -366.961090,26.289276 L -371.869904,-14.757130"
+              class="id_offer_rejected id_create_moderation_request_rejected_signal"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 334.080933,-61.870876 L 334.248413,-79.484070"
+              class="id_order_sent_to_moderation id_create_moderation_request_created_signal"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 111.472984,-145.466370 L 128.556946,-130.937027"
+              class="id_profile_info_changed id_send_profile_to_moderation"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 318.819092,163.553818 L 306.257751,134.879974"
+              class="id_balance_withdrawal id_send_balance_withdrawal_notification"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 307.679871,189.057419 L 273.085876,201.073425"
+              class="id_balance_withdrawal id_create_balance_audit_entry"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 324.766357,202.704041 L 320.636444,239.629684"
+              class="id_balance_withdrawal id_calculate_bonus"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -105.119446,245.051483 L -97.668655,226.555710"
+              class="id_offer_approved id_send_offer_approved_notification"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -120.593468,283.018921 L -133.052795,313.238068"
+              class="id_offer_approved id_create_moderation_request_approved_signal"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 292.846985,-92.701843 L 311.657471,-97.347954"
+              class="id_offer_sent_to_moderation id_create_moderation_request_created_signal"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -41.431419,63.229900 L -47.084679,41.796707"
+              class="id_profile_activated id_unfreeze_offers_profile_deactivated"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 97.481415,80.123245 L 116.823105,91.499084"
+              class="id_moderation_request_created id_assign_moderation_request_to_operator"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -193.253754,308.604218 L -162.907623,324.214325"
+              class="id_user_approved id_create_moderation_request_approved_signal"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -216.528076,279.357330 L -221.701141,258.982483"
+              class="id_user_approved id_send_user_approved_notification"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 48.870140,182.856964 L 32.130753,167.905563"
+              class="id_order_offer_limit_reached id_close_order_offer_limit"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 12.399283,-345.553589 L 24.190596,-329.919464"
+              class="id_offer_accepted id_send_offer_accepted_notification"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -14.883748,-347.882172 L -28.249130,-335.322601"
+              class="id_offer_accepted id_close_order_offer_accepted"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 174.095230,-0.338175 L 153.989136,-10.363159"
+              class="id_offer_declined id_send_offer_declined_notification"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 315.919250,-139.317139 L 323.785065,-123.912460"
+              class="id_user_sent_to_moderation id_create_moderation_request_created_signal"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -319.599487,-22.478397 L -352.051697,-31.680187"
+              class="id_order_rejected id_create_moderation_request_rejected_signal"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -279.959412,-12.034370 L -237.951492,-1.801636"
+              class="id_order_rejected id_send_order_rejected_notification"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -198.915009,-264.246033 L -201.056412,-245.637039"
+              class="id_profile_deactivated id_close_orders_profile_deactivated"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -176.769562,-279.307373 L -158.933685,-274.529724"
+              class="id_profile_deactivated id_freeze_offers_profile_deactivated"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -49.830177,348.610840 L -31.621445,338.071869"
+              class="id_order_approved id_send_order_approved_notification"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -87.090034,352.609222 L -119.636765,342.152313"
+              class="id_order_approved id_create_moderation_request_approved_signal"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 30.299503,-69.700531 L 5.765984,-72.627464"
+              class="id_offer_created id_create_offer_moderation_request"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -34.885597,-179.261154 L -12.878171,-183.438461"
+              class="id_order_created id_create_order_moderation_request"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 176.459198,-290.181946 L 158.730377,-284.585693"
+              class="id_order_closed id_close_offers_order_closed"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 199.793884,-276.205322 L 203.223877,-257.949982"
+              class="id_order_closed id_send_offer_rejected_notifications_order_closed"
+              stroke-opacity="1.0" stroke="#969588"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -152.990677,89.218689 L -149.545273,67.074951"
+              class="id_order_declined id_send_order_declined_notification"
+              stroke-opacity="1.0" stroke="#969588"/>
+    </g>
+    <g id="arrows">
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_user_rejected id_send_user_rejected_notification"
+                  points="-321.925934,-132.942139 -323.631439,-130.054047 -325.259735,-132.573700"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_user_rejected id_create_moderation_request_rejected_signal"
+                  points="-370.275146,-58.116333 -371.098663,-61.367764 -368.168121,-60.726017"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_order_published id_send_order_published_notification"
+                  points="-125.867874,-100.766350 -123.378456,-98.518501 -126.172493,-97.426109"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_balance_deposit id_calculate_bonus"
+                  points="298.582367,269.484558 296.212830,271.858429 295.261536,269.013275"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_balance_deposit id_create_balance_audit_entry"
+                  points="248.339172,229.125183 249.454712,232.288330 246.477966,231.915497"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_balance_deposit id_send_balance_deposit_notification"
+                  points="187.086182,278.578186 190.313202,277.663635 189.753998,280.611084"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_offer_rejected id_send_offer_rejected_notification"
+                  points="-330.263245,75.190620 -333.528259,74.422768 -331.607971,72.117882"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_offer_rejected id_create_moderation_request_rejected_signal"
+                  points="-372.226135,-17.735903 -370.380524,-14.935247 -373.359283,-14.579012"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_order_sent_to_moderation id_create_moderation_request_created_signal"
+                  points="334.276947,-82.483932 335.748352,-79.469810 332.748474,-79.498329"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_profile_info_changed id_send_profile_to_moderation"
+                  points="130.842239,-128.993469 127.585167,-129.794388 129.528732,-132.079666"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_balance_withdrawal id_send_balance_withdrawal_notification"
+                  points="305.053955,132.132095 307.631683,134.278076 304.883820,135.481873"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_balance_withdrawal id_create_balance_audit_entry"
+                  points="270.251953,202.057770 272.593719,199.656464 273.578033,202.490387"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_balance_withdrawal id_calculate_bonus"
+                  points="320.303009,242.611099 319.145752,239.462952 322.127136,239.796417"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_offer_approved id_send_offer_approved_notification"
+                  points="-96.547676,223.773010 -96.277306,227.116196 -99.060005,225.995224"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_offer_approved id_create_moderation_request_approved_signal"
+                  points="-134.196320,316.011597 -134.439545,312.666321 -131.666046,313.809814"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_offer_sent_to_moderation id_create_moderation_request_created_signal"
+                  points="314.569946,-98.067322 312.017151,-95.891716 311.297791,-98.804192"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_profile_activated id_unfreeze_offers_profile_deactivated"
+                  points="-47.849796,38.895916 -45.634281,41.414146 -48.535076,42.179268"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_moderation_request_created id_assign_moderation_request_to_operator"
+                  points="119.408997,93.019989 116.062653,92.792030 117.583557,90.206139"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_user_approved id_create_moderation_request_approved_signal"
+                  points="-160.239883,325.586609 -163.593765,325.548187 -162.221481,322.880463"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_user_approved id_send_user_approved_notification"
+                  points="-222.439392,256.074738 -220.247269,258.613342 -223.155014,259.351624"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_order_offer_limit_reached id_close_order_offer_limit"
+                  points="29.893307,165.907104 33.129982,166.786835 31.131523,169.024292"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_offer_accepted id_send_offer_accepted_notification"
+                  points="25.997032,-327.524292 22.993015,-329.016235 25.388176,-330.822693"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_offer_accepted id_close_order_offer_accepted"
+                  points="-30.435329,-333.268188 -29.276325,-336.415710 -27.221935,-334.229492"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_offer_declined id_send_offer_declined_notification"
+                  points="151.304367,-11.701801 154.658463,-11.705548 153.319809,-9.020770"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_user_sent_to_moderation id_create_moderation_request_created_signal"
+                  points="325.149323,-121.240616 322.449127,-123.230324 325.121002,-124.594597"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_order_rejected id_create_moderation_request_rejected_signal"
+                  points="-354.937927,-32.498573 -351.642517,-33.123295 -352.460876,-30.237080"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_order_rejected id_send_order_rejected_notification"
+                  points="-235.036713,-1.091625 -238.306503,-0.344251 -237.596481,-3.259021"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_profile_deactivated id_close_orders_profile_deactivated"
+                  points="-201.399368,-242.656708 -202.546585,-245.808517 -199.566238,-245.465561"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_profile_deactivated id_freeze_offers_profile_deactivated"
+                  points="-156.035858,-273.753479 -159.321808,-273.080811 -158.545563,-275.978638"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_order_approved id_send_order_approved_notification"
+                  points="-29.024986,336.569061 -30.870047,339.370087 -32.372845,336.773651"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_order_approved id_create_moderation_request_approved_signal"
+                  points="-122.492966,341.234650 -119.177933,340.724213 -120.095596,343.580414"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_offer_created id_create_offer_moderation_request"
+                  points="2.787109,-72.982857 5.943678,-74.116905 5.588289,-71.138023"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_order_created id_create_order_moderation_request"
+                  points="-9.930797,-183.997910 -12.598446,-181.964767 -13.157896,-184.912155"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_order_closed id_close_offers_order_closed"
+                  points="155.869507,-283.682648 158.278854,-286.016113 159.181900,-283.155273"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_order_closed id_send_offer_rejected_notifications_order_closed"
+                  points="203.777863,-255.001587 201.749680,-257.673004 204.698074,-258.226959"
+                  stroke="none"/>
+        <polyline fill="#969588" fill-opacity="1.0"
+                  class="id_order_declined id_send_order_declined_notification"
+                  points="-149.084045,64.110619 -148.063110,67.305565 -151.027435,66.844337"
+                  stroke="none"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="-17.568539"
+                class="id_create_offer_moderation_request" cy="-75.411354"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="-359.15836"
+                class="id_user_rejected" cy="-108.881516" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="-53.078106"
+                class="id_unfreeze_offers_profile_deactivated" cy="19.073837"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="-109.146286"
+                class="id_order_published" cy="-57.997337" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="240.86725"
+                class="id_balance_deposit" cy="288.78168" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="-203.74292"
+                class="id_close_orders_profile_deactivated" cy="-222.2911"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="132.95837"
+                class="id_send_offer_declined_notification" cy="-20.84919"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="-364.52682"
+                class="id_offer_rejected" cy="46.644234" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="333.88602"
+                class="id_order_sent_to_moderation" cy="-41.371803"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="95.85683"
+                class="id_profile_info_changed" cy="-158.74739" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="327.04495"
+                class="id_balance_withdrawal" cy="182.33107" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="-112.77944"
+                class="id_offer_approved" cy="264.0666" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="296.8281"
+                class="id_send_balance_withdrawal_notification" cy="113.35484"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="272.94507"
+                class="id_offer_sent_to_moderation" cy="-87.786156"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="-36.203114"
+                class="id_profile_activated" cy="83.05198" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="-215.11913"
+                class="id_send_order_rejected_notification" cy="3.7601128"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="207.56335"
+                class="id_send_offer_rejected_notifications_order_closed"
+                cy="-234.85413" stroke="#000000" stroke-opacity="1.0"
+                stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="79.81111"
+                class="id_moderation_request_created" cy="69.73044"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="38.34102"
+                class="id_send_offer_accepted_notification" cy="-311.15738"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="318.0244"
+                class="id_calculate_bonus" cy="262.98407" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="146.4584"
+                class="id_send_profile_to_moderation" cy="-115.71245"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="-227.48418"
+                class="id_send_user_approved_notification" cy="236.20517"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="-211.48329"
+                class="id_user_approved" cy="299.2269" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="64.159355"
+                class="id_order_offer_limit_reached" cy="196.51309"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="250.88687"
+                class="id_create_balance_audit_entry" cy="208.7841"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="334.47186"
+                class="id_create_moderation_request_created_signal"
+                cy="-102.98301" stroke="#000000" stroke-opacity="1.0"
+                stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="0.05529351"
+                class="id_offer_accepted" cy="-361.9205" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="-374.6604"
+                class="id_create_moderation_request_rejected_signal"
+                cy="-38.090862" stroke="#000000" stroke-opacity="1.0"
+                stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="-45.37437"
+                class="id_close_order_offer_accepted" cy="-319.22986"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="192.44122"
+                class="id_offer_declined" cy="8.809212" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="306.5967"
+                class="id_user_sent_to_moderation" cy="-157.57475"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="-299.877"
+                class="id_order_rejected" cy="-16.886108" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="-196.57146"
+                class="id_profile_deactivated" cy="-284.61163" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="-88.88768"
+                class="id_send_offer_approved_notification" cy="204.7579"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="10.209592"
+                class="id_create_order_moderation_request" cy="-187.82083"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="-67.572655"
+                class="id_order_approved" cy="358.87994" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="50.65515"
+                class="id_offer_created" cy="-67.27203" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="-136.23396"
+                class="id_freeze_offers_profile_deactivated" cy="-268.44922"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="137.0793"
+                class="id_assign_moderation_request_to_operator" cy="103.412796"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="-55.02599"
+                class="id_order_created" cy="-175.43825" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="-304.70822"
+                class="id_send_user_rejected_notification" cy="-144.06871"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="29.760912"
+                class="id_order_republished" cy="10.897888" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="-142.01035"
+                class="id_create_moderation_request_approved_signal"
+                cy="334.96393" stroke="#000000" stroke-opacity="1.0"
+                stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="-133.3326"
+                class="id_send_order_published_notification" cy="-119.85896"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="-314.5132"
+                class="id_send_offer_rejected_notification" cy="88.31261"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="14.60409"
+                class="id_close_order_offer_limit" cy="152.25098"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="196.00839"
+                class="id_order_closed" cy="-296.35278" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="166.94545"
+                class="id_send_balance_deposit_notification" cy="274.75702"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="-145.93231"
+                class="id_send_order_declined_notification" cy="43.854343"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="20.0" cx="-156.14241"
+                class="id_order_declined" cy="109.47496" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="-11.282512"
+                class="id_send_order_approved_notification" cy="326.29996"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="20.0" cx="136.32033"
+                class="id_close_offers_order_closed" cy="-277.5118"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="12" x="-17.568539" y="-72.630104" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_create_offer_moderation_request">
+            create_offer_moderation_request
+        </text>
+        <text font-size="12" x="-359.15836" y="-106.10222" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_user_rejected">
+            user_rejected
+        </text>
+        <text font-size="12" x="-53.078106" y="21.855087" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_unfreeze_offers_profile_deactivated">
+            unfreeze_offers_profile_deactivated
+        </text>
+        <text font-size="12" x="-109.146286" y="-55.253197" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_order_published">
+            order_published
+        </text>
+        <text font-size="12" x="240.86725" y="291.52582" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_balance_deposit">
+            balance_deposit
+        </text>
+        <text font-size="12" x="-203.74292" y="-219.50986" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_close_orders_profile_deactivated">
+            close_orders_profile_deactivated
+        </text>
+        <text font-size="12" x="132.95837" y="-18.06794" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_send_offer_declined_notification">
+            send_offer_declined_notification
+        </text>
+        <text font-size="12" x="-364.52682" y="49.46064" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_offer_rejected">
+            offer_rejected
+        </text>
+        <text font-size="12" x="333.88602" y="-38.627663" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_order_sent_to_moderation">
+            order_sent_to_moderation
+        </text>
+        <text font-size="12" x="95.85683" y="-155.93098" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_profile_info_changed">
+            profile_info_changed
+        </text>
+        <text font-size="12" x="327.04495" y="185.07521" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_balance_withdrawal">
+            balance_withdrawal
+        </text>
+        <text font-size="12" x="-112.77944" y="266.84784" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_offer_approved">
+            offer_approved
+        </text>
+        <text font-size="12" x="296.8281" y="116.13609" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_send_balance_withdrawal_notification">
+            send_balance_withdrawal_notification
+        </text>
+        <text font-size="12" x="272.94507" y="-85.004906" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_offer_sent_to_moderation">
+            offer_sent_to_moderation
+        </text>
+        <text font-size="12" x="-36.203114" y="85.83323" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_profile_activated">
+            profile_activated
+        </text>
+        <text font-size="12" x="-215.11913" y="6.576519" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_send_order_rejected_notification">
+            send_order_rejected_notification
+        </text>
+        <text font-size="12" x="207.56335" y="-232.03772" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_send_offer_rejected_notifications_order_closed">
+            send_offer_rejected_notifications_order_closed
+        </text>
+        <text font-size="12" x="79.81111" y="72.47458" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_moderation_request_created">
+            moderation_request_created
+        </text>
+        <text font-size="12" x="38.34102" y="-308.37613" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_send_offer_accepted_notification">
+            send_offer_accepted_notification
+        </text>
+        <text font-size="12" x="318.0244" y="265.7282" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_calculate_bonus">
+            calculate_bonus
+        </text>
+        <text font-size="12" x="146.4584" y="-112.9312" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_send_profile_to_moderation">
+            send_profile_to_moderation
+        </text>
+        <text font-size="12" x="-227.48418" y="238.98642" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_send_user_approved_notification">
+            send_user_approved_notification
+        </text>
+        <text font-size="12" x="-211.48329" y="301.97104" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_user_approved">
+            user_approved
+        </text>
+        <text font-size="12" x="64.159355" y="199.29434" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_order_offer_limit_reached">
+            order_offer_limit_reached
+        </text>
+        <text font-size="12" x="250.88687" y="211.5634" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_create_balance_audit_entry">
+            create_balance_audit_entry
+        </text>
+        <text font-size="12" x="334.47186" y="-100.20371" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_create_moderation_request_created_signal">
+            create_moderation_request_created_signal
+        </text>
+        <text font-size="12" x="0.05529351" y="-359.13925" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_offer_accepted">
+            offer_accepted
+        </text>
+        <text font-size="12" x="-374.6604" y="-35.311565" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_create_moderation_request_rejected_signal">
+            create_moderation_request_rejected_signal
+        </text>
+        <text font-size="12" x="-45.37437" y="-316.4486" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_close_order_offer_accepted">
+            close_order_offer_accepted
+        </text>
+        <text font-size="12" x="192.44122" y="11.590462" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_offer_declined">
+            offer_declined
+        </text>
+        <text font-size="12" x="306.5967" y="-154.83061" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_user_sent_to_moderation">
+            user_sent_to_moderation
+        </text>
+        <text font-size="12" x="-299.877" y="-14.106812" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_order_rejected">
+            order_rejected
+        </text>
+        <text font-size="12" x="-196.57146" y="-281.83038" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_profile_deactivated">
+            profile_deactivated
+        </text>
+        <text font-size="12" x="-88.88768" y="207.53915" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_send_offer_approved_notification">
+            send_offer_approved_notification
+        </text>
+        <text font-size="12" x="10.209592" y="-185.07669" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_create_order_moderation_request">
+            create_order_moderation_request
+        </text>
+        <text font-size="12" x="-67.572655" y="361.62408" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_order_approved">
+            order_approved
+        </text>
+        <text font-size="12" x="50.65515" y="-64.49078" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_offer_created">
+            offer_created
+        </text>
+        <text font-size="12" x="-136.23396" y="-265.66797" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_freeze_offers_profile_deactivated">
+            freeze_offers_profile_deactivated
+        </text>
+        <text font-size="12" x="137.0793" y="106.19209" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_assign_moderation_request_to_operator">
+            assign_moderation_request_to_operator
+        </text>
+        <text font-size="12" x="-55.02599" y="-172.6941" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_order_created">
+            order_created
+        </text>
+        <text font-size="12" x="-304.70822" y="-141.2523" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_send_user_rejected_notification">
+            send_user_rejected_notification
+        </text>
+        <text font-size="12" x="29.760912" y="13.642029" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_order_republished">
+            order_republished
+        </text>
+        <text font-size="12" x="-142.01035" y="337.74323" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_create_moderation_request_approved_signal">
+            create_moderation_request_approved_signal
+        </text>
+        <text font-size="12" x="-133.3326" y="-117.07771" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_send_order_published_notification">
+            send_order_published_notification
+        </text>
+        <text font-size="12" x="-314.5132" y="91.12901" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_send_offer_rejected_notification">
+            send_offer_rejected_notification
+        </text>
+        <text font-size="12" x="14.60409" y="155.03223" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_close_order_offer_limit">
+            close_order_offer_limit
+        </text>
+        <text font-size="12" x="196.00839" y="-293.60864" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_order_closed">
+            order_closed
+        </text>
+        <text font-size="12" x="166.94545" y="277.53827" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_send_balance_deposit_notification">
+            send_balance_deposit_notification
+        </text>
+        <text font-size="12" x="-145.93231" y="46.635593" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_send_order_declined_notification">
+            send_order_declined_notification
+        </text>
+        <text font-size="12" x="-156.14241" y="112.2191" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_order_declined">
+            order_declined
+        </text>
+        <text font-size="12" x="-11.282512" y="329.0812" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_send_order_approved_notification">
+            send_order_approved_notification
+        </text>
+        <text font-size="12" x="136.32033" y="-274.73056" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_close_offers_order_closed">
+            close_offers_order_closed
+        </text>
+    </g>
+</svg>
